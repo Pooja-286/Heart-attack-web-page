@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heart Attack — What, Symptoms & Precautions</title>
+  <style>
+    :root{
+      --bg:#fff9fb;
+      --card:#ffffff;
+      --accent:#e63946;
+      --accent-2:#ffb703;
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.7);
+      --radius:18px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background: linear-gradient(135deg,#fff9fb 0%, #f0f8ff 100%); color:#111827; -webkit-font-smoothing:antialiased;
+      padding:28px; display:flex; align-items:stretch; justify-content:center; min-height:100vh;
+    }
+    .container{width:100%; max-width:1100px; display:grid; grid-template-columns: 1fr 380px; gap:22px; align-items:start}
+    header{grid-column:1/-1; display:flex; gap:18px; align-items:center}
+    .logo{display:flex; gap:12px; align-items:center}
+    .logo .mark{width:64px; height:64px; border-radius:14px; background:linear-gradient(135deg,var(--accent),#ff6b6b); display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:22px; box-shadow:0 8px 20px rgba(230,57,70,0.18)}
+    h1{margin:0; font-size:28px}
+    p.lead{margin:0; color:var(--muted)}
+
+    /* main content */
+    .card{background:var(--card); border-radius:var(--radius); padding:22px; box-shadow:0 10px 30px rgba(16,24,40,0.06)}
+    .hero{display:flex; gap:18px; align-items:center}
+    .hero img{width:220px; height:160px; object-fit:cover; border-radius:12px; flex-shrink:0}
+    .badge{display:inline-block; background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:white; padding:8px 12px; border-radius:999px; font-weight:600; font-size:13px}
+
+    .section{margin-top:18px}
+    .cols{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+    ul{margin:0;padding-left:18px}
+    li{margin:8px 0}
+
+    aside .card{position:sticky; top:28px}
+    .precaution-grid{display:grid; grid-template-columns:1fr; gap:10px}
+    .precaution{display:flex; gap:12px; align-items:flex-start; background:linear-gradient(180deg,#fff,#fff); padding:12px; border-radius:12px}
+    .precaution .icon{width:46px; height:46px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:20px}
+    .cta-row{display:flex; gap:10px; margin-top:14px}
+    a.button{display:inline-block; text-decoration:none; padding:10px 14px; border-radius:12px; box-shadow:0 8px 18px rgba(99,102,241,0.08); font-weight:600}
+    .btn-primary{background:linear-gradient(90deg,#ef476f,#ff7b7b); color:white}
+    .btn-outline{border:2px solid #ffe6ea; color:var(--accent); background:transparent}
+
+    footer{grid-column:1/-1; text-align:center; color:var(--muted); margin-top:10px; font-size:13px}
+
+    /* responsive */
+    @media (max-width:900px){
+      .container{grid-template-columns:1fr; padding:8px}
+      .hero img{width:120px;height:100px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">❤️</div>
+        <div>
+          <h1>Heart Attack — Quick Guide</h1>
+          <p class="lead">Understand what a heart attack is, common symptoms, and easy precautions to lower risk.</p>
+        </div>
+      </div>
+      <div style="margin-left:auto">
+        <span class="badge">Health — Emergency Info</span>
+      </div>
+    </header>
+
+    <main class="card">
+      <div class="hero">
+        <div style="flex:1">
+          <h2>What is a Heart Attack?</h2>
+          <p>A heart attack (myocardial infarction) happens when blood flow to part of the heart is blocked — often by a blood clot — causing damage to the heart muscle. Prompt recognition and action save lives.</p>
+
+          <div class="section">
+            <h3 style="margin-bottom:6px">Quick facts</h3>
+            <div class="cols">
+              <div>
+                <ul>
+                  <li><strong>Also called:</strong> myocardial infarction (MI)</li>
+                  <li><strong>Typical cause:</strong> blocked coronary artery</li>
+                  <li><strong>Treatment window:</strong> earlier treatment = better outcomes</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><strong>Common tests:</strong> ECG, blood troponin, angiography</li>
+                  <li><strong>Treatments:</strong> aspirin, clot-busting drugs, stents</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Symptoms — Know the warning signs</h3>
+            <p>Symptoms can vary. Classic and less-typical signs include:</p>
+            <div class="cols">
+              <ul>
+                <li>Chest discomfort — pressure, squeezing, fullness or pain</li>
+                <li>Pain spreading to shoulders, neck, jaw, or arms</li>
+                <li>Shortness of breath</li>
+              </ul>
+              <ul>
+                <li>Cold sweat, nausea or lightheadedness</li>
+                <li>Unusual fatigue (especially in women)</li>
+                <li>Sudden anxiety or a feeling of impending doom</li>
+              </ul>
+            </div>
+
+            <p style="margin-top:12px"><strong>Important:</strong> If you suspect a heart attack — call emergency services immediately. While waiting, chew an aspirin (if not allergic) and try to stay calm.</p>
+          </div>
+
+          <div class="section">
+            <h3>What to do in an emergency</h3>
+            <ol>
+              <li>Call your local emergency number immediately.</li>
+              <li>Ask someone to get you medical help. If you're alone, chew an aspirin unless contraindicated.</li>
+              <li>If you lose consciousness and someone nearby is trained, begin CPR.</li>
+            </ol>
+          </div>
+
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1584467735875-8ea5b4ef7f0e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7a5b0c7f4c5f2e0d3b7c6a8a9b4d2e6f" alt="Heart and health illustration">
+      </div>
+
+      <div class="section">
+        <h3>Preventive precautions</h3>
+        <div class="cols">
+          <div>
+            <ul>
+              <li><strong>Quit smoking</strong> — decreases risk significantly.</li>
+              <li><strong>Stay active</strong> — aim for 150 mins of moderate exercise weekly.</li>
+              <li><strong>Eat heart-healthy</strong> — more vegetables, whole grains, lean proteins; less salt & processed foods.</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><strong>Manage blood pressure, cholesterol & diabetes</strong> — regular checkups and medication adherence.</li>
+              <li><strong>Maintain healthy weight</strong> and manage stress with sleep, mindfulness, or counselling.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>When to see your doctor</h3>
+        <p>Periodic checkups are important if you have risk factors: high blood pressure, high cholesterol, family history of heart disease, diabetes, or if you're a smoker. Discuss tests and an individualised plan.</p>
+      </div>
+
+      <div class="section">
+        <h3>More resources</h3>
+        <p style="margin:0">For official guidelines and detailed medical advice, consult your local health authority or a cardiologist.</p>
+      </div>
+
+    </main>
+
+    <aside>
+      <div class="card">
+        <h3 style="margin-top:0">Symptoms Snapshot</h3>
+        <ul>
+          <li>Chest pain/pressure</li>
+          <li>Shortness of breath</li>
+          <li>Pain radiating to arm/jaw</li>
+          <li>Nausea / cold sweat</li>
+          <li>Lightheadedness</li>
+        </ul>
+
+        <div class="section">
+          <h4>Precautions</h4>
+          <div class="precaution-grid">
+            <div class="precaution"><div class="icon" style="background:#ffe6ea">🚭</div><div><strong>Stop smoking</strong><div style="color:var(--muted);font-size:13px">Reduces major risk</div></div></div>
+            <div class="precaution"><div class="icon" style="background:#fff4e6">🏃</div><div><strong>Stay active</strong><div style="color:var(--muted);font-size:13px">Move 30 min most days</div></div></div>
+            <div class="precaution"><div class="icon" style="background:#e9f8ff">🥗</div><div><strong>Healthy diet</strong><div style="color:var(--muted);font-size:13px">Less salt & processed food</div></div></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h4>Quick actions</h4>
+          <div class="cta-row">
+            <a class="button btn-primary" href="#" id="call-ems">Call Emergency</a>
+            <a class="button btn-outline" href="#" id="download">Download Page</a>
+          </div>
+          <p style="margin-top:8px;color:var(--muted);font-size:13px">Note: the Call Emergency button opens a dial link on mobile devices.</p>
+        </div>
+      </div>
+
+      <div style="height:18px"></div>
+      <div class="card">
+        <h4 style="margin-top:0">Did you know?</h4>
+        <p style="margin:0;color:var(--muted);font-size:14px">Women sometimes experience subtler symptoms such as unusual fatigue, nausea, and jaw or back pain — not always dramatic chest pain.</p>
+      </div>
+    </aside>
+
+    <footer>
+      Created for quick reference — not a substitute for professional medical advice.
+    </footer>
+  </div>
+
+  <script>
+    // Call emergency (on mobile devices this opens the phone dialer)
+    document.getElementById('call-ems').addEventListener('click', function(e){
+      e.preventDefault();
+      // common emergency numbers; user should replace if needed
+      var number = 'tel:112';
+      window.location.href = number;
+    });
+
+    // Download the current page as an HTML file
+    document.getElementById('download').addEventListener('click', function(e){
+      e.preventDefault();
+      var html = '<!doctype html>\n' + document.documentElement.outerHTML;
+      var blob = new Blob([html], {type: 'text/html'});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url; a.download = 'heart-attack-guide.html';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
